@@ -161,7 +161,7 @@ app/src/main/java/com/glowhdr/app/
 │   ├── HdrParams.kt           # 参数模型、预设、导出分辨率档位
 │   ├── ImageProcessor.kt      # 基础调色 + 增益图生成 + 预览用 Gainmap 对象
 │   ├── UltraHdrExporter.kt    # Ultra HDR(JPEG_R) 字节封装与 MediaStore 写入
-│   └── ImageLoader.kt         # 解码、方向校正、按像素上限降采样
+│   └── ImageProcessor.kt      # 内含 ImageLoader：解码、方向校正、按像素上限降采样
 ├── data/
 │   └── PresetStore.kt         # 预设持久化（presets.json）
 ├── ui/
