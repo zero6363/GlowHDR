@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+*.hprof
+local.properties
+
+# 签名密钥与打包产物，不要提交到仓库
+keystore.properties
+keystore.jks
+*.jks
+*.keystore
+/release/
